@@ -1,0 +1,67 @@
+.main{
+	width: 150px;
+	height: 200px;
+	background: grey;
+	float: left;
+	 border: 5px; double red;
+
+	 padding: 5px;
+	 box-sizing: border-box;
+
+}
+
+body{
+	margin: 0 auto;
+	padding: 0px;
+
+}
+.menu{
+	width: 100%;
+	min-height:70px;
+	background: lightgrey;
+	float: left;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu ul{
+	padding: 0px;
+}	
+.menu ul li{
+	list-style-type: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	padding: 5px;
+	margin: 5px;
+	border-bottom: 2px solid transparent;
+	transition: 0.5s;
+
+
+
+}
+
+.menu ul li a:hover{
+	border-bottom-color: 2px solid red;
+}
+
+.limon{
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	float: left;
+/*	border-bottom-left-radius: 10px;*/
+
+}
+
+.limon:hover{
+
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
